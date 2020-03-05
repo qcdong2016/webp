@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6bb817d-8cf2-4988-92a9-d77fb07b6c61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/capi.go" beforeDir="false" afterPath="$PROJECT_DIR$/capi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/Makefile.vc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/README.mux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/autogen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/build-debug-proj-mt.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/demo/demo.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/doc/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/doc/TODO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/doc/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/doc/webp-container-spec.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/doc/webp-lossless-bitstream-spec.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/anim_diff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/anim_util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/anim_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/cwebp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/dwebp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/example_util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/example_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/gif2webp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/gifdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/gifdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/jpegdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/jpegdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/metadata.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/pngdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/pngdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/stopwatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/test.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/test_ref.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/tiffdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/tiffdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/vwebp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/webpdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/webpdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/webpmux.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/wicdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/examples/wicdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/include/webp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/iosbuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/m4/ax_pthread.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/makefile.unix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/man/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/man/cwebp.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/man/dwebp.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/man/gif2webp.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/man/vwebp.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/man/webpmux.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/alpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/alphai.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/decode_vp8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/idec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/io.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/tree.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/vp8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/vp8i.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/vp8l.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/vp8li.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/webp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dec/webpi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/demux/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/demux/anim_decode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/demux/demux.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/demux/libwebpdemux.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/alpha_processing.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/alpha_processing_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/alpha_processing_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/alpha_processing_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/argb.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/argb_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/argb_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/cost.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/cost_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/cost_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/cost_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec_clip_tables.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dec_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/dsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc_avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/enc_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/filters.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/filters_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/filters_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_enc_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_enc_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_enc_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_enc_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_enc_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/lossless_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/mips_macro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/neon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/rescaler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/rescaler_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/rescaler_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/rescaler_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/rescaler_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/upsampling.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/upsampling_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/upsampling_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/upsampling_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/yuv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/yuv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/yuv_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/yuv_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/dsp/yuv_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/alpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/analysis.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/backward_references.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/backward_references.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/config.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/cost.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/cost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/delta_palettization.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/delta_palettization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/histogram.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/histogram.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/iterator.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/near_lossless.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/picture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/picture_csp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/picture_psnr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/picture_rescale.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/picture_tools.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/syntax.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/token.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/tree.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/vp8enci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/vp8l.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/vp8li.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/enc/webpenc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/extras/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/extras/extras.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/extras/libwebpextras.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/libwebp.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/libwebpdecoder.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/anim_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/libwebpmux.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/muxedit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/muxi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/muxinternal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/mux/muxread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/bit_reader.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/bit_reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/bit_reader_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/bit_writer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/bit_writer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/color_cache.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/color_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/endian_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/filters.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/filters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/huffman.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/huffman.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/huffman_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/huffman_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/quant_levels.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/quant_levels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/quant_levels_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/quant_levels_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/random.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/rescaler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/rescaler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/thread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/utils/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/decode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/demux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/extras.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/format_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/mux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/mux_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/src/webp/types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/_libwebp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp.swig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp_gc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp_go_wrap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp_java_wrap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/libwebp_python_wrap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/swig/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/jpeg/jpgd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/jpeg/jpgd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/jpeg/jpge.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/jpeg/jpge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/jpeg/stb_image.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/jpeg/tga2jpg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/png/lodepng.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/png/lodepng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/test_util.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/test_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/test_util_jpg.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/test_util_png.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/webp_bench_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/test/webp_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/testdata/video-001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/testdata/video-001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/testdata/video-001.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/testdata/video-005.gray.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/testdata/video-005.gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-0.5.0/testdata/video-005.gray.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/.mailmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/Makefile.vc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/alpha_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/alphai_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/buffer_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/common_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/frame_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/idec_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/io_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/quant_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/tree_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/vp8_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/vp8_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/vp8i_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/vp8l_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/vp8li_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/webp_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dec/webpi_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/demux/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/demux/anim_decode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/demux/demux.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/demux/libwebpdemux.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/demux/libwebpdemux.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/alpha_processing.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/alpha_processing_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/alpha_processing_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/alpha_processing_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/alpha_processing_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/common_sse2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/common_sse41.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/cost.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/cost_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/cost_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/cost_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/cost_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_clip_tables.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dec_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/dsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/enc_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/filters.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/filters_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/filters_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/filters_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/filters_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_enc_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/lossless_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/mips_macro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/msa_macro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/neon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/quant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/rescaler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/rescaler_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/rescaler_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/rescaler_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/rescaler_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/rescaler_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/ssim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/ssim_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/upsampling.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/upsampling_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/upsampling_msa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/upsampling_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/upsampling_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/upsampling_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv_mips_dsp_r2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/dsp/yuv_sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/alpha_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/analysis_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/backward_references_cost_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/backward_references_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/backward_references_enc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/config_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/cost_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/cost_enc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/filter_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/frame_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/histogram_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/histogram_enc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/iterator_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/near_lossless_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/picture_csp_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/picture_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/picture_psnr_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/picture_rescale_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/picture_tools_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/predictor_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/quant_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/syntax_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/token_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/tree_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/vp8i_enc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/vp8l_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/vp8li_enc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/enc/webp_enc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/libwebp.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/libwebp.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/libwebpdecoder.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/libwebpdecoder.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/anim_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/animi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/libwebpmux.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/libwebpmux.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/muxedit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/muxi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/muxinternal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/mux/muxread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/bit_reader_inl_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/bit_reader_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/bit_reader_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/bit_writer_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/bit_writer_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/color_cache_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/color_cache_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/endian_inl_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/filters_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/filters_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/huffman_encode_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/huffman_encode_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/huffman_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/huffman_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/quant_levels_dec_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/quant_levels_dec_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/quant_levels_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/quant_levels_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/random_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/random_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/rescaler_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/rescaler_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/thread_utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/thread_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/utils/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/decode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/demux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/format_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/mux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/mux_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp-1.0.2/src/webp/types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/Makefile.vc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/README.mux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/build-debug-proj-mt.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/demo/demo.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/doc/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/doc/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/doc/webp-container-spec.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/doc/webp-lossless-bitstream-spec.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/cwebp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/dwebp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/example_util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/example_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/gif2webp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/gif2webp_util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/gif2webp_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/jpegdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/jpegdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/metadata.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/pngdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/pngdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/stopwatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/test.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/test_ref.ppm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/tiffdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/tiffdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/vwebp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/webpdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/webpdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/webpmux.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/wicdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/examples/wicdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/include/webp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/makefile.unix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/alpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/alphai.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/decode_vp8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/idec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/io.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/tree.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/vp8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/vp8i.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/vp8l.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/vp8li.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/webp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dec/webpi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/demux/demux.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/demux/demux.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/alpha_processing.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/alpha_processing.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/cpu.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/cpu.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_clip_tables.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_clip_tables.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_mips32.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_mips32.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_neon.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_neon.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_sse2.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/dec_sse2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/dsp.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/dsp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_mips32.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_mips32.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_neon.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_neon.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_sse2.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/enc_sse2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless_mips32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless_neon.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless_neon.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless_sse2.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/lossless_sse2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/neon.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/neon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/upsampling.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/upsampling.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/upsampling_neon.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/upsampling_neon.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/upsampling_sse2.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/upsampling_sse2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv_mips32.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv_mips32.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv_sse2.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv_sse2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/dsp/yuv_tables_sse2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/alpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/analysis.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/backward_references.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/backward_references.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/config.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/cost.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/cost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/histogram.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/histogram.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/iterator.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/picture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/picture_csp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/picture_psnr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/picture_rescale.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/picture_tools.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/syntax.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/token.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/tree.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/vp8enci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/vp8l.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/vp8li.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/enc/webpenc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/mux/muxedit.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/mux/muxedit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/mux/muxi.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/mux/muxi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/mux/muxinternal.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/mux/muxinternal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/mux/muxread.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/mux/muxread.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/alpha_processing.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/alpha_processing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/bit_reader.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/bit_reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/bit_reader_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/bit_writer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/bit_writer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/color_cache.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/color_cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/endian_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/filters.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/filters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/huffman.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/huffman.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/huffman_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/huffman_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/quant_levels.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/quant_levels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/quant_levels_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/quant_levels_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/random.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/rescaler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/rescaler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/thread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/utils/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/utils/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/utils/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/decode.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/decode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/demux.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/demux.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/encode.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/encode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/format_constants.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/format_constants.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/mux.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/mux.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/mux_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/mux_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/src/webp/types.h" beforeDir="false" afterPath="$PROJECT_DIR$/internal/libwebp/src/webp/types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/jpeg/jpgd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/jpeg/jpgd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/jpeg/jpge.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/jpeg/jpge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/jpeg/stb_image.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/jpeg/tga2jpg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/png/lodepng.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/png/lodepng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/test_util.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/test_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/test_util_jpg.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/test_util_png.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/webp_bench_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/test/webp_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/testdata/video-001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/testdata/video-001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/testdata/video-001.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/testdata/video-005.gray.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/testdata/video-005.gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/libwebp/testdata/video-005.gray.webp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YfDcYBAwMKqRPPHTFQtVymMtXQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunManager">
+    <configuration name="webp_example_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="webp" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/webp_example_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.webp_example_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="update gomod" />
+    <MESSAGE value="replace" />
+    <MESSAGE value="remove useless lib, remove linguist-vendored" />
+    <MESSAGE value="libwebp 1.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="libwebp 1.1.0" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="42" key="#Go_Modules_(vgo)" timestamp="1583324853455">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state x="240" y="42" key="#Go_Modules_(vgo)/0.23.1280.705@0.23.1280.705" timestamp="1583324853455" />
+    <state x="104" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583415414984">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state x="104" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.705@0.23.1280.705" timestamp="1583415414984" />
+    <state x="333" y="35" key="#webp_example_test.go" timestamp="1583415333803">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state x="333" y="35" key="#webp_example_test.go/0.23.1280.705@0.23.1280.705" timestamp="1583415333803" />
+    <state x="221" y="23" key="CommitChangelistDialog2" timestamp="1583415946268">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state x="221" y="23" key="CommitChangelistDialog2/0.23.1280.705@0.23.1280.705" timestamp="1583415946268" />
+    <state width="1238" height="173" key="GridCell.Tab.0.bottom" timestamp="1583415695181">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state width="1238" height="173" key="GridCell.Tab.0.bottom/0.23.1280.705@0.23.1280.705" timestamp="1583415695181" />
+    <state width="1238" height="173" key="GridCell.Tab.0.center" timestamp="1583415695179">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state width="1238" height="173" key="GridCell.Tab.0.center/0.23.1280.705@0.23.1280.705" timestamp="1583415695179" />
+    <state width="1238" height="173" key="GridCell.Tab.0.left" timestamp="1583415695179">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state width="1238" height="173" key="GridCell.Tab.0.left/0.23.1280.705@0.23.1280.705" timestamp="1583415695179" />
+    <state width="1238" height="173" key="GridCell.Tab.0.right" timestamp="1583415695180">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state width="1238" height="173" key="GridCell.Tab.0.right/0.23.1280.705@0.23.1280.705" timestamp="1583415695180" />
+    <state x="240" y="116" key="Vcs.Push.Dialog.v2" timestamp="1583413734928">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state x="240" y="116" key="Vcs.Push.Dialog.v2/0.23.1280.705@0.23.1280.705" timestamp="1583413734928" />
+    <state x="295" y="139" width="845" height="472" key="find.popup" timestamp="1583327435865">
+      <screen x="0" y="23" width="1280" height="705" />
+    </state>
+    <state x="295" y="139" width="845" height="472" key="find.popup/0.23.1280.705@0.23.1280.705" timestamp="1583327435865" />
+  </component>
+</project>
