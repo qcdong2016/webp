@@ -1,3 +1,12 @@
+Merge [github.com/sizeofint/webpanimation](https://github.com/sizeofint/webpanimation) into [github.com/webp-sh/webp](https://github.com/webp-sh/webp)
+
+Support animated/static images convert to webp.
+
+
+
+
+
+
 - *Go语言QQ群: 102319854, 1055927514*
 - *凹语言(凹读音“Wa”)(The Wa Programming Language): https://github.com/wa-lang/wa*
 
